@@ -15,7 +15,7 @@ import (
 )
 
 // BlockSize is the serpent block size in bytes.
-const BlockSize = 64
+const BlockSize = 32
 
 const phi = 0x9e3779b9 // The Serpent phi constant (sqrt(5) - 1) * 2**31
 
